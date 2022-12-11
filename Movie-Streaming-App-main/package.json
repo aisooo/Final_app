@@ -1,14 +1,14 @@
 {
-  "homepage": "https://aisooo.github.io/final_project",
   "name": "MovieStreamingApp",
+  "homepage": "http://aisooo.github.io/final_project",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "jest",
     "lint": "eslint ."
   },
